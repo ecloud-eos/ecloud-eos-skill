@@ -1,29 +1,6 @@
 ---
 name: ecloud-eos
 description: 移动云对象存储(EOS)技能。当用户需要上传、下载、管理云存储文件等操作时使用此技能。
-metadata:
-  {
-    "openclaw":
-      {
-        "emoji": "☁️",
-        "requires": {},
-        "install":
-          [
-            {
-              "id": "eos-s3-client",
-              "kind": "node",
-              "package": "@aws-sdk/client-s3",
-              "label": "Install S3 Node.js SDK",
-            },
-            {
-              "id": "eos-s3-request-presigner",
-              "kind": "node",
-              "package": "@aws-sdk/s3-request-presigner",
-              "label": "Install S3 Request Presigner",
-            },
-          ],
-      },
-  }
 ---
 
 # 移动云 EOS 技能
